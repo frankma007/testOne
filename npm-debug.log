@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'compass-normalize' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of F:\www\abc\package.json
+5 warn package.json webjs@0.0.0 No description
+6 warn package.json webjs@0.0.0 No repository field.
+7 warn package.json webjs@0.0.0 No README data
+8 verbose installManyTop reading scoped package data from F:\www\abc\node_modules\grunt\package.json
+9 verbose installManyTop reading scoped package data from F:\www\abc\node_modules\grunt-contrib-watch\package.json
+10 verbose installManyTop reading scoped package data from F:\www\abc\node_modules\grunt-sass\package.json
+11 verbose installManyTop reading scoped package data from F:\www\abc\node_modules\normalize.css\package.json
+12 info package.json grunt@0.4.5 No license field.
+13 info package.json grunt-sass@0.6.1 No license field.
+14 info package.json grunt-contrib-watch@0.4.3 No license field.
+15 verbose readDependencies loading dependencies from F:\www\abc\package.json
+16 silly cache add args [ 'compass-normalize', null ]
+17 verbose cache add spec compass-normalize
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'compass-normalize',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'compass-normalize',
+18 silly cache add   rawSpec: '',
+18 silly cache add   spec: '*',
+18 silly cache add   type: 'range' }
+19 silly addNamed compass-normalize@*
+20 verbose addNamed "*" is a valid semver range for compass-normalize
+21 silly addNameRange { name: 'compass-normalize', range: '*', hasData: false }
+22 silly mapToRegistry name compass-normalize
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry http://registry.npmjs.org/
+25 silly mapToRegistry uri http://registry.npmjs.org/compass-normalize
+26 verbose addNameRange registry:http://registry.npmjs.org/compass-normalize not in flight; fetching
+27 verbose request uri http://registry.npmjs.org/compass-normalize
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 16:21:09
+30 verbose request id f5cfbbd5322099a9
+31 http request GET http://registry.npmjs.org/compass-normalize
+32 http 404 http://registry.npmjs.org/compass-normalize
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '2',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 19 Apr 2016 08:22:37 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1461054157.678681,VS0,VE199',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 404,
+34 silly get   { 'content-type': 'application/json',
+34 silly get     'cache-control': 'max-age=0',
+34 silly get     'content-length': '2',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Tue, 19 Apr 2016 08:22:37 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-itm7422-ITM',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1461054157.678681,VS0,VE199',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose stack Error: Registry returned 404 for GET on http://registry.npmjs.org/compass-normalize
+35 verbose stack     at makeError (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+35 verbose stack     at Request._callback (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+35 verbose stack     at Request.self.callback (F:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (F:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1063:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (F:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+36 verbose statusCode 404
+37 verbose pkgid compass-normalize
+38 verbose cwd F:\www\abc
+39 error Windows_NT 6.1.7601
+40 error argv "F:\\Program Files\\nodejs\\node.exe" "F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "compass-normalize"
+41 error node v4.2.1
+42 error npm  v2.14.7
+43 error code E404
+44 error 404 Registry returned 404 for GET on http://registry.npmjs.org/compass-normalize
+44 error 404
+44 error 404 'compass-normalize' is not in the npm registry.
+44 error 404 You should bug the author to publish it (or use the name yourself!)
+44 error 404 It was specified as a dependency of 'webjs'
+44 error 404
+44 error 404 Note that you can also install from a
+44 error 404 tarball, folder, http url, or git url.
+45 verbose exit [ 1, true ]

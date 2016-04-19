@@ -1,0 +1,41 @@
+@import "compass/reset";
+@import "compass/reset/utilities";
+@import "compass/css3/border-radius";
+
+.header {
+  @include border-radius(4px);
+}
+
+.header_top_left_rounded {
+  @include border-top-left-radius(4px);
+}
+
+@import "compass/typography/lists/horizontal-list";
+
+ul.horiz {
+  @include horizontal-list(4px);
+}
+//compass stretching
+@import "compass/layout/stretching";
+
+//stretched fully
+.stretched {
+  @include stretch;
+}
+
+//stretched with gap
+.stretched {
+  @include stretch(12px, 12px, 12px, 12px);
+}
+//stretched horizontally
+.stretched {
+  @include stretch-x;
+}
+$name-spacing: 20px;
+$name-layout: 'smart';
+@import "name/*.png";
+@include all-name-sprites;
+//@import "../node_modules/normalize.css/normalize.css";
+
+
+
