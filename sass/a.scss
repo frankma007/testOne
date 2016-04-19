@@ -36,6 +36,9 @@ $name-layout: 'smart';
 @import "name/*.png";
 @include all-name-sprites;
 //@import "../node_modules/normalize.css/normalize.css";
+body{
+  line-height: 1.6;
+}
 
 
 
